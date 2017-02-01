@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`report-fire`
+A simple way to report content via Firebase
+
+@demo demo/index.html 
+-->
+
+<dom-module id="report-fire">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'report-fire',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'report-fire',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
